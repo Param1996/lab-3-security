@@ -25,11 +25,11 @@ function test_checkHumberId (valueIn, expected){
 
 test_checkHumberId("n01333782", true);
 test_checkHumberId("azjhiosoi;s", false);
-test_checkHumberId("jdiloljedliedo",true);
+test_checkHumberId("jdiloljedliedo",false);
 test_checkHumberId("n012782", false);
-test_checkHumberId("n12345654",true);
-test_checkHumberId("n93939393",true);
+test_checkHumberId("N12345654",true);
+test_checkHumberId("n939393931111",false);
 test_checkHumberId("tarunkumar",false);
 
 
-test_checkHumberId("n01333782", false);
+test_checkHumberId("n01333782", true);
